@@ -1,0 +1,11 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.mycard {
+    width: 360px;
+}
+
+.link-shadow {
+    box-shadow: 3px 7px 33px -19px rgba(0,0,0,0.1);
+}
