@@ -1,11 +1,17 @@
 * {
-    font-family: "Poppins", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
-.mycard {
-    width: 360px;
+.img-filter {
+    filter: grayscale(0) !important;
+    transition: filter 0.3s ease-in-out !important;
 }
 
-.link-shadow {
-    box-shadow: 3px 7px 33px -19px rgba(0,0,0,0.1);
+a:hover .img-filter {
+    filter: grayscale(100%) !important;
+}
+
+a:hover .fa-link {
+    color: rgb(161, 161, 255) !important;
+    transition: color 0.3s ease-in-out;
 }
